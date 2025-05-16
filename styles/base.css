@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(7, 7, 151);
+    color: white;
+    font-size: 30px;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.781);
+    margin: 0 auto;
+}
+nav a {
+    color: white;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover {
+    color: blue;
+    text-decoration: overline;
+    font-weight: 500;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav li {
+    flex: 1 1 auto ;
+}
+main {
+    border: 1px solid grey;
+    max-width: 1000px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+.card {
+    display: block;
+    margin: 10px;
+}
+.first {
+    position: relative;
+}
+.first h2 {
+    background-color: rgb(7, 7, 151);
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: larger;
+    margin: 0;
+    border-radius: 10px;
+}
+.first p {
+    margin: 10px;
+}
+.second h2 {
+    text-align: center;
+    font-size: larger;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    background-color: rgb(7, 7, 151);
+    color: white;
+    border-radius: 10px;
+}
+.first img {
+    float: right;
+    margin: 10px;
+}
+.second p {
+    margin: 35px;
+}
+.second img {
+  display: block;
+  margin: 10px;
+  object-fit: cover;
+  height: auto;
+  float: left;
+}
+.second::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+    text-align: center;
+}
