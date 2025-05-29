@@ -48,6 +48,9 @@ header, main {
 main h1 {
     padding: 10px;
 }
+main h2 {
+    padding: 10px;
+}
 
 main {
     display: grid;
