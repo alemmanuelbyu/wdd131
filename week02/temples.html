@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
     <script src="scripts/temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Temple Album</h1>
+        <button type="button" id="menu"></button>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">Old</a></li>
                 <li><a href="#">New</a></li>
                 <li><a href="#">Large</a></li>
@@ -24,34 +28,36 @@
         </nav>
     </header>
     <main>
-        <h1>Temples</h1>
-        <figure>
-            <img src="images/aba_nigeria_temple.webp" alt="Temple 1"><figcaption>Aba Nigeria Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/argentina_temple.webp" alt="Temple 2"><figcaption>Argentina Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/bolivia_temple.webp" alt="Temple 3"><figcaption>Bolivia Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/brigham_city_utah_temple.webp" alt="Temple 4"><figcaption>Brigham City Utah Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/casper_wyoming_temple.webp" alt="Temple 5"><figcaption>Casper Wyoming Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/columbia_temple.webp" alt="Temple 6"><figcaption>Columbia Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/south_africa_temple.webp" alt="Temple 7"><figcaption>South Africa Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/ivory_coast_temple.webp" alt="Temple 8"><figcaption>Ivory Coast  Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/switzerland_temple.webp" alt="Temple 9"><figcaption>Switzerland Temple</figcaption>
-        </figure>
+        <h1>Home</h1>
+        <div class="container">
+            <figure>
+                <img src="images/aba_nigeria_temple.webp" alt="Temple 1"><figcaption>Aba Nigeria Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/argentina_temple.webp" alt="Temple 2"><figcaption>Argentina Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/bolivia_temple.webp" alt="Temple 3"><figcaption>Bolivia Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/brigham_city_utah_temple.webp" alt="Temple 4"><figcaption>Brigham City Utah Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/casper_wyoming_temple.webp" alt="Temple 5"><figcaption>Casper Wyoming Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/columbia_temple.webp" alt="Temple 6"><figcaption>Columbia Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/south_africa_temple.webp" alt="Temple 7"><figcaption>South Africa Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/ivory_coast_temple.webp" alt="Temple 8"><figcaption>Ivory Coast  Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/switzerland_temple.webp" alt="Temple 9"><figcaption>Switzerland Temple</figcaption>
+            </figure>
+        </div>
     </main>
     <footer>
         <p>© <span id="currentyear"></span>🌳🌴 Emmanuel Olusola Irebami🌴 Nigeria 🌳</p>
