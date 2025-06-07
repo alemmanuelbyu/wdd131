@@ -1,0 +1,54 @@
+@media (min-width: 38em) {
+    .page {
+        font-size: medium;
+        width: 250px;
+        position: absolute;
+        opacity: 0.9;
+    }
+    .page li {
+        display: flex;
+    }
+    .data {
+        padding: 20px;
+        top: 180px;
+        left: 50px;
+        background-color: var(--white);
+    }
+    h2 {
+        background-color: var(--green);
+        width: 230px;
+        padding: 10px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .second {
+        display: none;
+    }
+    .first {
+        display: block;
+        position: absolute;
+        top: 445px;
+        right: 160px;
+    }
+    .weather {
+        padding: 20px;
+        background-color: var(--white);
+        top: 500px;
+        right: 60px;
+    }
+    .country h2 {
+        bottom: 450px;
+        left: 20px;
+        position: absolute;
+        color: var(--white);
+    }
+    .info h2{
+        top: 430px;
+        right: 130px;
+        position: absolute;
+        color: var(--white);
+    } 
+    h1 {
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 | Country Page - Emmanuel O.Irebami  </title>
+    <meta name="author" content="Emmanuel Olusola Irebami">
+    <meta name="description" content="This shows the Country or place I have lived, have visited, or wish to visit">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script defer src="scripts/place.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 38em)" srcset="images/nigeria-travel.webp" width="1200" height="600">
+                <img src="images/akure-dome.webp" alt="Nigeria" width="500" height="250">
+            </picture>
+        </div>
+        <section class="country">
+            <h2>Data</h2>
+                <ul class="page data">
+                    <li><strong>Area:</strong>  923,768 sq km</li>
+                    <li><strong>Population:</strong>227,882,945</li>
+                    <li><strong>Capital:</strong> Abuja</li>
+                    <li><strong>Languages:</strong> English, Hausa, Yoruba, Igbo</li>
+                    <li><strong>Currency:</strong> Naira (₦)</li>
+                    <li><strong>Time Zone:</strong>(WAT), UTC+1</li>
+                    <li><strong>Calling Code:</strong> +234</li>
+                    <li><strong>Internet TLD:</strong>.ng</li>
+                </ul>
+        </section> 
+        <section class="info">  
+            <h2>Weather</h2>
+            <img class="first" src="images/weather_clouds_sun_sunny_icon.svg" alt="weather">
+            <img class="second" src="images/weather_sun_sunrise_icon.svg" alt="">
+            <ul class="page weather">
+                <li><strong>Temperature:</strong> 26℃</li>
+                <li><strong>Condition:</strong> Sunny</li>
+                <li><strong>Wind:</strong> 4 km/h</li>
+                <li><strong>Wind Chill:</strong> </li>
+            </ul>
+        </section>     
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span>🌳🌴 Emmanuel Olusola Irebami🌴 Nigeria 🌳</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
