@@ -1,0 +1,14 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5DC;
+}
+h1, h2, h3 {
+    font-family: "Noto Serif", serif;
+    color: #964B00; 
+}
+.nato {
+    font-family: "Noto Serif", serif;
+}
+.roboto {
+    font-family: 'Open Sans', sans-serif;
+}
