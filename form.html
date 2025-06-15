@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emmanuel Olusola Irebami">
+    <meta name="description" content="Product review form page">
+    <title>WDD 131 | Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script defer src="scripts/form.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <fieldset>
+                <legend>Project Name</legend>
+                <select name="projectname" id="Productname" required>
+                    <option value="" disabled selected>Select a Product</option>
+                </select>
+
+                <legend>Overall Rating</legend>
+                <label><input type="radio" name="overallratings" id="rating1" value="1" required>⭐</label>
+                <label><input type="radio" name="overallratings" id="rating2" value="2">⭐⭐</label>
+                <label><input type="radio" name="overallratings" id="rating3" value="3">⭐⭐⭐</label>
+                <label><input type="radio" name="overallratings" id="rating4" value="4">⭐⭐⭐⭐</label>
+                <label><input type="radio" name="overallratings" id="rating5" value="5">⭐⭐⭐⭐⭐</label>
+
+                <legend>Date of Visit</legend>
+                <label><input type="date" name="visitdate" id="visitdate" required></label>
+
+                <legend>Which aspects of our coffee shop enhanced your experience? <br>(Check all that apply)</legend>
+                <label><input type="checkbox" id="feature1" name="usefulFeatures" value="quality" required>Quality of Coffee</label>
+                <label><input type="checkbox" id="feature2" name="usefulFeatures" value="staffs">Friendly Staffs</label>
+                <label><input type="checkbox" id="feature3" name="usefulFeatures" value="location">Convienent Location</label>
+                <label><input type="checkbox" id="feature4" name="usefulFeatures" value="options">Variety of Options</label>
+                <label><input type="checkbox" id="feature5" name="usefulFeatures" value="comfort">Calming Surroundings</label>
+
+                <div class="review">
+                <legend>Written Review</legend>
+                <textarea name="review" id="review"></textarea>
+                </div>
+
+                <legend>Your Name</legend>
+                <label><input type="text" name="username" id="username" placeholder="Your Name (Optional)"></label>
+            </fieldset>
+            <div class="submit">
+            <input type="submit" value="Post Feedback">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span>🌳🌴 Emmanuel Olusola Irebami🌴 Nigeria 🌳</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
