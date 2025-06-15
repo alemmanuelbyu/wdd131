@@ -18,37 +18,48 @@
     </header>
     <main>
         <form method="get" action="review.html">
-            <fieldset>
+                <fieldset>
                 <legend>Project Name</legend>
                 <select name="projectname" id="Productname" required>
                     <option value="" disabled selected>Select a Product</option>
                 </select>
+                </fieldset>
 
+                <fieldset>
                 <legend>Overall Rating</legend>
                 <label><input type="radio" name="overallratings" id="rating1" value="1" required>⭐</label>
                 <label><input type="radio" name="overallratings" id="rating2" value="2">⭐⭐</label>
                 <label><input type="radio" name="overallratings" id="rating3" value="3">⭐⭐⭐</label>
                 <label><input type="radio" name="overallratings" id="rating4" value="4">⭐⭐⭐⭐</label>
                 <label><input type="radio" name="overallratings" id="rating5" value="5">⭐⭐⭐⭐⭐</label>
+                </fieldset>
 
+                <fieldset>
                 <legend>Date of Visit</legend>
                 <label><input type="date" name="visitdate" id="visitdate" required></label>
+                </fieldset>
 
+                <fieldset>
                 <legend>Which aspects of our coffee shop enhanced your experience? <br>(Check all that apply)</legend>
                 <label><input type="checkbox" id="feature1" name="usefulFeatures" value="quality" required>Quality of Coffee</label>
                 <label><input type="checkbox" id="feature2" name="usefulFeatures" value="staffs">Friendly Staffs</label>
                 <label><input type="checkbox" id="feature3" name="usefulFeatures" value="location">Convienent Location</label>
                 <label><input type="checkbox" id="feature4" name="usefulFeatures" value="options">Variety of Options</label>
                 <label><input type="checkbox" id="feature5" name="usefulFeatures" value="comfort">Calming Surroundings</label>
+                </fieldset>
 
+                
                 <div class="review">
+                <fieldset>   
                 <legend>Written Review</legend>
                 <textarea name="review" id="review"></textarea>
+                </fieldset>
                 </div>
-
+            
+                <fieldset>
                 <legend>Your Name</legend>
                 <label><input type="text" name="username" id="username" placeholder="Your Name (Optional)"></label>
-            </fieldset>
+                </fieldset>
             <div class="submit">
             <input type="submit" value="Post Feedback">
             </div>
