@@ -67,9 +67,10 @@ input[type="submit"]:hover {
 footer {
     background-color: #964B00;
     color: #FFFFCC;
-    padding: 1em;
+    padding: 10px;
     text-align: center;
     font-family: "Lato", sans-serif;
+    font-size: 20px;
 }
 .review textarea {
     padding-bottom: 40px;

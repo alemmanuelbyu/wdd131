@@ -1,3 +1,9 @@
+let currentYear = new Date().getFullYear();
+let currentYearElement = document.getElementById("currentyear");
+currentYearElement.textContent = currentYear;
+let lastModifiedElement = document.getElementById("lastModified");
+lastModifiedElement.textContent = `last modified: ${document.lastModified}`;
+
 const products = [
     { id: "latte", name: "Latte", averagerating: 4.5 },
     { id: "cappuccino", name: "Cappuccino", averagerating: 4.7 },
