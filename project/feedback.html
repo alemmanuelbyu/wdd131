@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cozy Cup</title>
+    <link rel="stylesheet" href="styles/cozycup.css">
+    <script defer src="scripts/cozycup.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/cozycup.webp" alt="logo" loading="lazy">
+        <h1>Cozy Feedback</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="feedback.html">Review</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+                <fieldset>
+                <legend>Project Name</legend>
+                <select name="projectname" id="Productname" required>
+                    <option value="" disabled selected>Select a Product</option>
+                </select>
+                </fieldset>
+
+                <fieldset>
+                <legend>Overall Rating</legend>
+                <label><input type="radio" name="overallratings" id="rating1" value="1" required>⭐</label>
+                <label><input type="radio" name="overallratings" id="rating2" value="2">⭐⭐</label>
+                <label><input type="radio" name="overallratings" id="rating3" value="3">⭐⭐⭐</label>
+                <label><input type="radio" name="overallratings" id="rating4" value="4">⭐⭐⭐⭐</label>
+                <label><input type="radio" name="overallratings" id="rating5" value="5">⭐⭐⭐⭐⭐</label>
+                </fieldset>
+
+                <fieldset>
+                <legend>Date of Visit</legend>
+                <label><input type="date" name="visitdate" id="visitdate" required></label>
+                </fieldset>
+
+                <fieldset>
+                <legend>Which aspects of our coffee shop enhanced your experience? <br>(Check all that apply)</legend>
+                <label><input type="checkbox" id="feature1" name="usefulFeatures" value="quality" required>Quality of Coffee</label>
+                <label><input type="checkbox" id="feature2" name="usefulFeatures" value="staffs">Friendly Staffs</label>
+                <label><input type="checkbox" id="feature3" name="usefulFeatures" value="location">Convienent Location</label>
+                <label><input type="checkbox" id="feature4" name="usefulFeatures" value="options">Variety of Options</label>
+                <label><input type="checkbox" id="feature5" name="usefulFeatures" value="comfort">Calming Surroundings</label>
+                </fieldset>
+
+                
+                <div class="review">
+                <fieldset>   
+                <legend>Written Review</legend>
+                <textarea name="review" id="review"></textarea>
+                </fieldset>
+                </div>
+            
+                <fieldset>
+                <legend>Your Name</legend>
+                <label><input type="text" name="username" id="username" placeholder="Your Name (Optional)"></label>
+                </fieldset>
+            <div class="submit">
+            <input type="submit" value="Post Feedback">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Instagram">
+            </a>
+        </nav>
+        <p>© <span id="currentyear"></span>🌳🌴 Emmanuel Olusola Irebami🌴 Nigeria 🌳</p>
+        <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>

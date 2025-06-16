@@ -1,0 +1,78 @@
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #964B00;
+    color: #FFFFCC;
+    padding: 1em;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+main {
+    max-width: 500px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #FFFFCC;
+    border: 1px solid #228B22;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 10px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-top: 1rem;
+    color: #228B22;
+    font-family: "Playfair", serif;
+    font-size: 1.2rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+input[type="text"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #964B00;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+input[type="submit"] {
+    background-color: #964B00;
+    color: #FFFFCC;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Merriweather", serif;
+}
+input[type="submit"]:hover {
+    background-color: #BCE36C;
+    color: #964B00;
+}
+.submit {
+    text-align: center;
+}
+footer {
+    background-color: #964B00;
+    color: #FFFFCC;
+    padding: 10px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+.review textarea {
+    padding-bottom: 40px;
+
+}
